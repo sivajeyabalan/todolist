@@ -1,0 +1,158 @@
+/* style.css */
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Header styling */
+h1 {
+  text-align: center;
+  color: #4a90e2;
+}
+
+/* Input field and button styling */
+#input {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#addpro {
+  padding: 10px 15px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#addpro:hover {
+  background-color: #357abd;
+}
+
+/* Project container styling */
+#project {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.project {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.project h3 {
+  margin: 0;
+  color: #4a90e2;
+  font-size: 1.25em;
+}
+
+.project input[type="text"] {
+  width: 100%;
+  height: 100%;
+  padding: 10px 30px;
+  margin: 8px 0;
+  border: 1px solid #d8c8c8;
+  border-radius: 4px;
+}
+
+/* Add To-Do button styling */
+.project button {
+  padding: 8px 12px;
+  margin-top: 5px;
+  background-color: #4a90e2;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.project button:hover {
+  background-color: #357abd;
+}
+
+/* To-Do item styling */
+.todo-item {
+  border-top: 1px solid #eee;
+  padding: 10px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item h4 {
+  margin: 0;
+  color: #333;
+}
+
+.todo-item textarea,
+.todo-item input[type="date"],
+.todo-item select {
+  margin: 5px 0;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.todo-item textarea {
+  resize: vertical;
+}
+
+.todo-item select {
+  background-color: #fff;
+}
+
+.todo-item button {
+  padding: 6px 10px;
+  background-color: #e94e77;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 5px;
+  align-self: flex-start;
+}
+
+.todo-item button:hover {
+  background-color: #d63d68;
+}
+
+/* Checklist styling */
+.todo-item .checklist {
+  margin-top: 10px;
+}
+
+.checklist ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.checklist input[type="text"] {
+  width: calc(100% - 100px);
+  margin-right: 5px;
+}
+
+.checklist button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checklist button:hover {
+  background-color: #45a049;
+}
